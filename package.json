@@ -1,0 +1,34 @@
+{
+  "name": "jate",
+  "version": "1.0.0",
+  "description": "As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "idb": "^7.0.1",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nico749/PWA_Text_Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nico749/PWA_Text_Editor/issues"
+  },
+  "homepage": "https://github.com/Nico749/PWA_Text_Editor#readme"
+}
