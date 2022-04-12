@@ -24,7 +24,7 @@ const tx = contactDb.transaction('jate', 'readwrite');
 const store = tx.objectStore('jate');
 
 // Use the .add() method on the store and pass in the content.
-const request = store.add({ content:content});
+const request = store.add({ value:content});
 
 // Get confirmation of the request.
 const result = await request;
