@@ -4,6 +4,7 @@
   "description": "As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.",
   "main": "server.js",
   "scripts": {
+    
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server node server.js --ignore client",
